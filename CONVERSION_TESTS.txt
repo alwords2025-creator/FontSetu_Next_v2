@@ -1,0 +1,12 @@
+FontSetu Next converter smoke tests
+===================================
+Executed JavaScript syntax check: PASS (node --check app.js)
+Mapping smoke tests: PASS
+- KrutiDev sample Hkkjr -> भारत
+- KrutiDev sample ueLrs -> नमस्ते
+- Unicode sample भारत -> Hkkjr
+
+Limitations:
+- These are smoke tests for common examples, not comprehensive language/font validation.
+- The bundled mapping remains a starter map. Review converted text.
+- KrutiDev 055 / Shivaji / other Marathi legacy encodings require their own mapping engine.
